@@ -1,1 +1,341 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>HR Cyber & Stationery Shop</title><style>*{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,sans-serif;background:#f5f7fb;color:#172033;line-height:1.6}header{background:#071426;color:white;padding:16px 6%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}.logo{font-size:24px;font-weight:800;color:#ffd51a}.logo span{color:white}nav a{color:white;text-decoration:none;margin-left:20px;font-weight:600}.hero{background:linear-gradient(135deg,#071426,#12355c);color:white;padding:70px 6%;text-align:center}.hero h1{font-size:42px;margin-bottom:10px}.hero p{font-size:19px;opacity:.9}.btn{display:inline-block;margin:22px 8px 0;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:700}.call{background:#ffd51a;color:#111}.wa{background:#20b858;color:white}section{padding:55px 6%}.title{text-align:center;margin-bottom:28px;font-size:30px}.shop-photo{width:100%;max-width:1200px;display:block;margin:auto;border-radius:18px;box-shadow:0 12px 35px rgba(0,0,0,.16)}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}.card{background:white;padding:25px;border-radius:14px;box-shadow:0 5px 20px rgba(0,0,0,.08);text-align:center}.price{width:100%;max-width:850px;margin:auto;border-collapse:collapse;background:white;box-shadow:0 5px 20px rgba(0,0,0,.08);border-radius:12px;overflow:hidden}.price th,.price td{padding:15px;border-bottom:1px solid #eee;text-align:left}.price th{background:#071426;color:white}.price td:last-child{font-weight:800;text-align:right}.contact{background:#071426;color:white;text-align:center}footer{background:#030a13;color:#ddd;text-align:center;padding:18px}@media(max-width:700px){nav{display:none}.hero h1{font-size:30px}section{padding:40px 5%}}</style></head><body><header><div class="logo"><span>HR</span> Cyber & Stationery</div><nav><a href="#services">Services</a><a href="#prices">Price List</a><a href="#shop">Shop</a><a href="#contact">Contact</a></nav></header><div class="hero"><h1>HR Cyber & Stationery Shop</h1><p>Your Study & Work Partner • Print • Scan • Photocopy • Online Services</p><a class="btn call" href="tel:7763069025">📞 Call Now</a><a class="btn wa" href="https://wa.me/917763069025">💬 WhatsApp</a></div><section id="shop"><h2 class="title">Our Shop</h2><img class="shop-photo" src="shop-photo.png" alt="HR Cyber & Stationery Shop"></section><section id="services"><h2 class="title">Our Services</h2><div class="cards"><div class="card"><h3>🖨️ Printing</h3><p>B/W and Colour Printing</p></div><div class="card"><h3>📄 Photocopy</h3><p>Fast & clear photocopy service</p></div><div class="card"><h3>📷 Scanning</h3><p>Document scanning service</p></div><div class="card"><h3>📑 Resume / CV</h3><p>Professional resume preparation</p></div><div class="card"><h3>📝 Online Services</h3><p>Forms, applications & online work</p></div><div class="card"><h3>📚 Stationery</h3><p>School, office, art & craft supplies</p></div></div></section><section id="prices"><h2 class="title">Price List</h2><table class="price"><tr><th>Service</th><th>Price</th></tr><tr><td>B/W Print</td><td>₹5 / page</td></tr><tr><td>Colour Print</td><td>₹10 / page</td></tr><tr><td>Photocopy</td><td>₹3 / page</td></tr><tr><td>Scanning</td><td>₹10 से</td></tr><tr><td>Resume / CV</td><td>₹50 से</td></tr><tr><td>Online Form</td><td>₹100 से</td></tr></table></section><section id="contact" class="contact"><h2 class="title">Contact Us</h2><p>📍 New Chandmari, Motihari, Bihar – 845422</p><p>📞 77630 69025</p><a class="btn call" href="tel:7763069025">Call</a><a class="btn wa" href="https://wa.me/917763069025">WhatsApp</a></section><footer>© 2026 HR Cyber & Stationery Shop. All Rights Reserved.</footer></body></html>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HR Cyber & Stationery</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+      color: #222;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #111827, #2563eb);
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 15px;
+      opacity: 0.9;
+    }
+
+    /* Shop Image */
+    .shop-image {
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+
+    .shop-image img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 18px;
+      display: block;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    /* Welcome */
+    .welcome {
+      text-align: center;
+      padding: 15px;
+    }
+
+    .welcome h2 {
+      font-size: 25px;
+      margin-bottom: 8px;
+      color: #1d4ed8;
+    }
+
+    .welcome p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* Products */
+    .products {
+      max-width: 1100px;
+      margin: 20px auto;
+      padding: 15px;
+    }
+
+    .products h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 15px;
+      padding: 20px 12px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: 0.2s;
+    }
+
+    .product:hover {
+      transform: translateY(-4px);
+    }
+
+    .product .icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .product h3 {
+      font-size: 17px;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      color: #16a34a;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* Services */
+    .services {
+      max-width: 1100px;
+      margin: 25px auto;
+      padding: 15px;
+    }
+
+    .services h2 {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+
+    .service {
+      background: white;
+      padding: 18px 10px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+    }
+
+    .service span {
+      display: block;
+      font-size: 30px;
+      margin-bottom: 7px;
+    }
+
+    /* Contact */
+    .contact {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+      margin-top: 30px;
+    }
+
+    .contact h2 {
+      margin-bottom: 10px;
+    }
+
+    .contact p {
+      margin: 7px 0;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      margin-top: 18px;
+      background: #25D366;
+      color: white;
+      padding: 13px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background: #030712;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 25px;
+      }
+
+      .shop-image img {
+        height: 220px;
+      }
+
+      .welcome h2 {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>HR Cyber & Stationery</h1>
+    <p>Stationery • Cyber Cafe • Online Services</p>
+  </header>
+
+
+  <!-- SHOP PHOTO -->
+  <section class="shop-image">
+    <img src="shop.jpg" alt="HR Cyber & Stationery Shop">
+  </section>
+
+
+  <!-- WELCOME -->
+  <section class="welcome">
+    <h2>Welcome to HR Cyber & Stationery</h2>
+    <p>
+      आपके सभी Stationery और Online काम की सुविधाएं एक ही जगह।
+    </p>
+  </section>
+
+
+  <!-- PRODUCTS -->
+  <section class="products">
+    <h2>📚 Stationery Products</h2>
+
+    <div class="product-grid">
+
+      <div class="product">
+        <div class="icon">📓</div>
+        <h3>Notebook</h3>
+        <div class="price">₹5</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">✏️</div>
+        <h3>Pencil</h3>
+        <div class="price">₹10</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">🖊️</div>
+        <h3>Pen</h3>
+        <div class="price">₹3</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">📏</div>
+        <h3>Scale</h3>
+        <div class="price">₹10</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">📒</div>
+        <h3>Register</h3>
+        <div class="price">₹50</div>
+      </div>
+
+      <div class="product">
+        <div class="icon">📁</div>
+        <h3>File</h3>
+        <div class="price">₹100</div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SERVICES -->
+  <section class="services">
+    <h2>💻 Our Services</h2>
+
+    <div class="service-grid">
+
+      <div class="service">
+        <span>🖨️</span>
+        Print & Photocopy
+      </div>
+
+      <div class="service">
+        <span>📄</span>
+        Online Form
+      </div>
+
+      <div class="service">
+        <span>🪪</span>
+        ID Card
+      </div>
+
+      <div class="service">
+        <span>📸</span>
+        Photo & Scan
+      </div>
+
+      <div class="service">
+        <span>💻</span>
+        Cyber Cafe
+      </div>
+
+      <div class="service">
+        <span>📑</span>
+        PDF & Document
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>📞 Contact Us</h2>
+
+    <p>HR Cyber & Stationery</p>
+    <p>आपके सभी Cyber और Stationery काम के लिए</p>
+
+    <!-- अपना WhatsApp नंबर यहाँ डालें -->
+    <a
+      class="whatsapp"
+      href="https://wa.me/91XXXXXXXXXX"
+      target="_blank">
+      💬 WhatsApp पर संपर्क करें
+    </a>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 HR Cyber & Stationery | All Rights Reserved
+  </footer>
+
+</body>
+</html>
